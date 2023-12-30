@@ -2,7 +2,7 @@
 ### Tech Stacks:
 - PostgreSQL
 - Python
-- SqlALchemy
+- SqlALchemy : [OfficialDocs](https://docs.sqlalchemy.org/en/14/orm/query.html)
 
 ## Features and Queries Practice :
 ### Queries: 
