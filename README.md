@@ -1,4 +1,8 @@
 # <h1 align="center"> Learning SqlAlchemy with PostgreSQL </h1>
+### Tech Stacks:
+- PostgreSQL
+- Python
+- SqlALchemy
 
 ## Features and Queries Practice :
 ### Queries: 
