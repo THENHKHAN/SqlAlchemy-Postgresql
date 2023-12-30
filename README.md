@@ -10,4 +10,8 @@
 - `insert data`: single `record` as well list of `records`
 - `getALlData`
 - get data by `order by`
-- `filter` 
+- `filter`
+- `Update Data`
+- `Delete Data`
+- `Made Relationship` : Between Invoice and Customer table - checkout the `queryOnRElation` file, there is mention there as well.
+.
