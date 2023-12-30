@@ -46,7 +46,7 @@ new_record1 = MyTable3(name='Noor2', age='444', course="MCA2")
 new_record2 = MyTable3(name='Noor3', age='666', course="MCA3")
 new_record3 = MyTable3(name='Noor4', age='555', course="MCA4")
 
-session.add_all([new_record1,new_record2,new_record3])
+session.add_all([new_record1,new_record2,new_record3]) # to insert multiple records at once
 session.commit()
 
 # Close the session when done
