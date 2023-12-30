@@ -14,4 +14,5 @@
 - `Update Data`
 - `Delete Data`
 - `Made Relationship` : Between Invoice and Customer table - checkout the `queryOnRElation` file, there is mention there as well.
+- [LinkForRef](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_orm_working_with_joins.htm)
 .
