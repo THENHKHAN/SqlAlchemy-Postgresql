@@ -21,7 +21,7 @@ def get_connection():
     engine = create_engine(connectionStr, echo=False)
     # Establish a connection: Using psycopg2 to connect with the PostgreSQL database.
     # conn = psycopg2.connect(connectionStr)
-    print(" connection engine Object-> ", engine)
+    # print(" connection engine Object-> ", engine)
     return engine
 
 if __name__ == '__main__':
