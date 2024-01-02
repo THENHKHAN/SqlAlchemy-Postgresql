@@ -56,6 +56,26 @@ def get_db():
     finally:
         db.close() # here we are closing
 
+@app.get("/" )
+async def index ():
+       return {"message": "Hello World!"}
+
+@app.post("/blog/", status_code=201)
+def creat_blog(request:BlogPydantic, db:Session = Depends(get_db)):
+     try:
+            new_blog = models.Blog(title = request.title , body = request.body)
+            db.add(new_blog)
+            db.commit()
+            db.refresh(new_blog)
+            return {"data" : {"info":"blog created successfully" , "title" : request.title , "body":request} }
+     except Exception as e:
+    # By this way we can know about the type of error occurring
+        print("The error is: ",e)
+        return {"status_code":404, "error":[ {"detail": "Blog not created"} , {"errorDetail" : f"The error is: {e}"} ] }
+        # return JSONResponse(status_code=404, content= {"error" : "Blog cannot be created", "errorDetail" : f"The error is: {e}", }) also working
+
+#Run server:(blog) E:\NHKHAN_studySelf\1-ColabsWithTHE_NHKHAN\BitFumesFastAPi>uvicorn blog.main:app 
+
 # IMP:
 '''
 https://fastapi.tiangolo.com/tutorial/sql-databases/#main-fastapi-app : scroll for this - Create a dependency
