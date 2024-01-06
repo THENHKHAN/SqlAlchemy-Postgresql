@@ -17,14 +17,16 @@
 - [LinkForRef](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_orm_working_with_joins.htm)
 
 ## Branch Distribution:
-- **nk** : Basics crud operations done - `1st branch`
-- **relationship** : Here we have relations Learing among table - `2nd branch` 
+- **nk** : Basics crud operations done - `1st branch`. Using `PostgreSql``
+- **relationship** : Here we have relations Learing among table - `2nd branch`. Using `Sqlite``
 
-## # Important Links:
+## Important Links:
 
 - [fastAPI Offcial Docs](https://fastapi.tiangolo.com/tutorial/sql-databases/#main-fastapi-app)
 - [Article](https://hackersandslackers.com/sqlalchemy-data-models/): About Relationship through `SqlAlchemy`
 - [YT-Lect](https://www.youtube.com/watch?v=XWtj4zLl_tg&list=PLEt8Tae2spYlxiF1scFTTIGG37TouiF2t&index=2) : By `Ssali Jonathan` SQLAlchemy 2.0 ORM - Talked about Sqlite with SqlAlchemy. Explained well about relationship and CRUD (By user and Comment table).
+
+- [SqlAlchemy_OffDocs](https://docs.sqlalchemy.org/en/20/orm/quickstart.html) : In this full Crud given But you need to look in more but btter for start 
 
 
 ## Creating Db using SqlALchemy with Sqlite and FastAPI
