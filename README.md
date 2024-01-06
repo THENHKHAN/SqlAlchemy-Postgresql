@@ -16,6 +16,11 @@
 - `Made Relationship` : Between Invoice and Customer table - checkout the `queryOnRElation` file, there is mention there as well.
 - [LinkForRef](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_orm_working_with_joins.htm)
 
+## Branch Distribution:
+- **nk** : Basics crud operations done - `1st branch`
+- **relationship** : Here we have relations Learing among table - `2nd branch` 
+
+
 ## Creating Db using SqlALchemy with Sqlite and FastAPI
 ```python
 ## database.py
