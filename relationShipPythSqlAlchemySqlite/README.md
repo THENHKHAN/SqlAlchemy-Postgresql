@@ -7,7 +7,7 @@ SQLAlchemy provides two main components for interacting with databases: `SQLAlch
 
 **Object-Relational Mapping (ORM)**: SQLAlchemy ORM allows you to interact with a relational database using Python objects that are mapped to database tables. It provides a higher-level, more abstract interface that allows you to work with Python classes and objects instead of raw SQL queries.
 
-**Declarative Base**: In SQLAlchemy ORM, you can define your database models using a declarative syntax, typically by inheriting from declarative_base(). This allows you to define your tables and relationships using Python classes and attributes.
+**Declarative Base**: In SQLAlchemy ORM, you can define your database models using a `declarative syntax`, typically by inheriting from `declarative_base()`. This allows you to define your tables and relationships using Python classes and attributes.
 
 ```python
 from sqlalchemy.ext.declarative import declarative_base
@@ -15,7 +15,7 @@ from sqlalchemy.ext.declarative import declarative_base
 Base = declarative_base()
 ```
 
-**Relationships**: ORM provides a powerful way to define relationships between tables using attributes like relationship. These relationships are expressed in terms of Python objects and are more intuitive than manually joining tables in SQL. ORM allows you to define relationships between tables using the relationship attribute.
+**Relationships**: ORM provides a powerful way to define `relationships` between tables using attributes like relationship. These relationships are expressed in terms of Python objects and are more intuitive than manually joining tables in SQL. ORM allows you to define relationships between tables using the `relationship attribute`.
 
 ```python
 class User(Base):
