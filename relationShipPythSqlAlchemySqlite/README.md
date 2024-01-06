@@ -1,6 +1,5 @@
 ## What are the main differences between sqlalchemy-ORM and slqalchemy-core?
 
-
 SQLAlchemy provides two main components for interacting with databases: `SQLAlchemy ORM` (Object-Relational Mapping) and `SQLAlchemy Core`. Here's a brief overview of the main differences between them:
 
 ## 1- SQLAlchemy ORM:
@@ -33,48 +32,11 @@ class Post(Base):
 
 **Automatic SQL Generation**: ORM automatically generates SQL statements for CRUD operations based on your model definitions. This makes it easier to perform common database operations without writing raw SQL.
 
-
 ## 2- SQLAlchemy Core:
 
 **SQL Expression Language:** SQLAlchemy Core is a lower-level interface that focuses on SQL expression language. It allows you to express SQL queries using Python constructs and provides a way to interact with databases using SQL expressions.
 
 **Explicit SQL:** With Core, you have more control over the SQL statements you write. You can construct SQL queries explicitly using functions and constructs provided by SQLAlchemy, giving you fine-grained control over the generated SQL.
-
-```python
-from sqlalchemy import create_engine, select, text
-
-engine = create_engine("sqlite:///:memory:")
-
-with engine.connect() as connection:
-    result = connection.execute(select([users.c.name, users.c.age]).where(text("age > 25")))
-
-```
-
-**Schema Definition:** In Core, you define your database schema using explicit constructs like Table and Column. This gives you direct control over the structure of your database tables.
-
-```python
-from sqlalchemy import Table, Column, Integer, String, MetaData
-
-metadata = MetaData()
-
-users = Table(
-    "users",
-    metadata,
-    Column("id", Integer, primary_key=True),
-    Column("name", String),
-    Column("age", Integer),
-)
-
-```
-
-**Query API:** Core provides a query API that allows you to construct SQL queries using a fluent API. While it's not as high-level as the ORM for working with Python objects, it provides flexibility and control for more complex queries.
-
-```python
-from sqlalchemy import select
-
-result = select([users.c.name, users.c.age]).where(users.c.age > 25)
-
-```
 
 ## Choosing Between ORM and Core
 
