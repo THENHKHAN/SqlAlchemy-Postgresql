@@ -1,7 +1,7 @@
 ## What are the main differences between sqlalchemy-ORM and slqalchemy-core?
 
 
-SQLAlchemy provides two main components for interacting with databases: SQLAlchemy ORM (Object-Relational Mapping) and SQLAlchemy Core. Here's a brief overview of the main differences between them:
+SQLAlchemy provides two main components for interacting with databases: `SQLAlchemy ORM` (Object-Relational Mapping) and `SQLAlchemy Core`. Here's a brief overview of the main differences between them:
 
 ## 1- SQLAlchemy ORM:
 
