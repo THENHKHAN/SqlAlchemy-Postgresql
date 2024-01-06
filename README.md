@@ -24,6 +24,7 @@
 
 - [fastAPI Offcial Docs](https://fastapi.tiangolo.com/tutorial/sql-databases/#main-fastapi-app)
 - [Article](https://hackersandslackers.com/sqlalchemy-data-models/): About Relationship through `SqlAlchemy`
+- [YT-Lect](https://www.youtube.com/watch?v=XWtj4zLl_tg&list=PLEt8Tae2spYlxiF1scFTTIGG37TouiF2t&index=2) : By `Ssali Jonathan` SQLAlchemy 2.0 ORM - Talked about Sqlite with SqlAlchemy. Explained well about relationship and CRUD (By user and Comment table).
 
 
 ## Creating Db using SqlALchemy with Sqlite and FastAPI
