@@ -1,0 +1,51 @@
+2024-01-07 09:44:34,623 ********** Database connected successfully **************
+2024-01-07 09:44:34,623 BEGIN (implicit)
+2024-01-07 09:44:34,623 PRAGMA main.table_info("users")
+2024-01-07 09:44:34,629 [raw sql] ()
+2024-01-07 09:44:34,630 PRAGMA main.table_info("posts")
+2024-01-07 09:44:34,630 [raw sql] ()
+2024-01-07 09:44:34,631 COMMIT
+2024-01-07 09:45:08,087 ********** Database connected successfully **************
+2024-01-07 09:45:08,087 BEGIN (implicit)
+2024-01-07 09:45:08,087 PRAGMA main.table_info("users")
+2024-01-07 09:45:08,098 [raw sql] ()
+2024-01-07 09:45:08,099 PRAGMA temp.table_info("users")
+2024-01-07 09:45:08,099 [raw sql] ()
+2024-01-07 09:45:08,100 PRAGMA main.table_info("posts")
+2024-01-07 09:45:08,101 [raw sql] ()
+2024-01-07 09:45:08,102 PRAGMA temp.table_info("posts")
+2024-01-07 09:45:08,102 [raw sql] ()
+2024-01-07 09:45:08,102 
+CREATE TABLE users (
+	id INTEGER NOT NULL, 
+	username VARCHAR(40) NOT NULL, 
+	email VARCHAR(40), 
+	PRIMARY KEY (id)
+)
+
+
+2024-01-07 09:45:08,102 [no key 0.00199s] ()
+2024-01-07 09:45:08,112 CREATE INDEX ix_users_id ON users (id)
+2024-01-07 09:45:08,113 [no key 0.00056s] ()
+2024-01-07 09:45:08,114 
+CREATE TABLE posts (
+	id INTEGER NOT NULL, 
+	title VARCHAR(45) NOT NULL, 
+	content VARCHAR(255) NOT NULL, 
+	user_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES users (id)
+)
+
+
+2024-01-07 09:45:08,114 [no key 0.00216s] ()
+2024-01-07 09:45:08,114 CREATE INDEX ix_posts_id ON posts (id)
+2024-01-07 09:45:08,114 [no key 0.00063s] ()
+2024-01-07 09:45:08,129 COMMIT
+2024-01-07 09:45:30,948 ********** Database connected successfully **************
+2024-01-07 09:45:30,963 BEGIN (implicit)
+2024-01-07 09:45:30,963 PRAGMA main.table_info("users")
+2024-01-07 09:45:30,968 [raw sql] ()
+2024-01-07 09:45:30,969 PRAGMA main.table_info("posts")
+2024-01-07 09:45:30,969 [raw sql] ()
+2024-01-07 09:45:30,970 COMMIT

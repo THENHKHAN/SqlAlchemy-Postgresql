@@ -1,0 +1,23 @@
+import logging
+
+# Create and configure logger
+logging.basicConfig(
+    level=logging.DEBUG,  # Set the logging level to DEBUG
+    format='%(asctime)s %(message)s',
+    handlers=[
+        logging.FileHandler("newfile.log", mode='w'),  # File handler
+        logging.StreamHandler()  # Console handler
+    ]
+)
+
+# Creating an object
+logger = logging.getLogger()
+
+# Test messages
+logger.debug("Harmless debug Message")
+logger.info("Just an information")
+logger.warning("Its a Warning")
+logger.error("Did you try to divide by zero")
+logger.critical("Internet is down")
+
+print("HHHHHHHHHHHHHHHHHHHHHHHHHH")

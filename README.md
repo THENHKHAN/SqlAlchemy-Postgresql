@@ -17,16 +17,19 @@
 - [LinkForRef](https://www.tutorialspoint.com/sqlalchemy/sqlalchemy_orm_working_with_joins.htm)
 
 ## Branch Distribution:
-- **nk** : Basics crud operations done - `1st branch`. Using `PostgreSql``
-- **relationship** : Here we have relations Learing among table - `2nd branch`. Using `Sqlite``
-
+- **nk** : Basics crud operations done - `1st branch`. Using `PostgreSql`
+- **relationship** : Here we have relations Learing among table - `2nd branch`. Using `Sqlite`
+- **1-many** : In this branch we'll have `One-To-Many` relationship implemeted with User and Post
 ## Important Links:
 
 - [fastAPI Offcial Docs](https://fastapi.tiangolo.com/tutorial/sql-databases/#main-fastapi-app)
 - [Article](https://hackersandslackers.com/sqlalchemy-data-models/): About Relationship through `SqlAlchemy`
 - [YT-Lect](https://www.youtube.com/watch?v=XWtj4zLl_tg&list=PLEt8Tae2spYlxiF1scFTTIGG37TouiF2t&index=2) : By `Ssali Jonathan` SQLAlchemy 2.0 ORM - Talked about Sqlite with SqlAlchemy. Explained well about relationship and CRUD (By user and Comment table).
+- [YT-1-TO-Many](https://www.youtube.com/watch?v=cc0xt9uuKQo&t=396s)
 
 - [SqlAlchemy_OffDocs](https://docs.sqlalchemy.org/en/20/orm/quickstart.html) : In this full Crud given But you need to look in more but btter for start 
+
+- [article-About-Relationship-In-SqlALchemy](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/)
 
 
 ## Creating Db using SqlALchemy with Sqlite and FastAPI
