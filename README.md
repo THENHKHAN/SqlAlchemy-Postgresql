@@ -20,17 +20,20 @@
 - **nk** : Basics crud operations done - `1st branch`. Using `PostgreSql`
 - **relationship** : Here we have relations Learing among table - `2nd branch`. Using `Sqlite`
 - **1-many** : In this branch we'll have `One-To-Many` relationship implemeted with User and Post
+- **Many-To-Many-Relationship** : In this branch we'll have `Many-to-Many` Relationships 
+
 ## Important Links:
 
 - [fastAPI Offcial Docs](https://fastapi.tiangolo.com/tutorial/sql-databases/#main-fastapi-app)
 - [Article](https://hackersandslackers.com/sqlalchemy-data-models/): About Relationship through `SqlAlchemy`
 - [YT-Lect](https://www.youtube.com/watch?v=XWtj4zLl_tg&list=PLEt8Tae2spYlxiF1scFTTIGG37TouiF2t&index=2) : By `Ssali Jonathan` SQLAlchemy 2.0 ORM - Talked about Sqlite with SqlAlchemy. Explained well about relationship and CRUD (By user and Comment table).
 - [YT-1-TO-Many](https://www.youtube.com/watch?v=cc0xt9uuKQo&t=396s)
-
 - [SqlAlchemy_OffDocs](https://docs.sqlalchemy.org/en/20/orm/quickstart.html) : In this full Crud given But you need to look in more but btter for start 
-
 - [article-About-Relationship-In-SqlALchemy](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/)
-
+- [Article2](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/) : All type of relationShip explained very well.
+-[Article3](https://www.digitalocean.com/community/tutorials/how-to-use-many-to-many-database-relationships-with-flask-sqlalchemy): Well explained with example and table also shwed.
+- [YT_TheoryWithEx1](https://www.youtube.com/watch?v=TX2fhj8Xrj8&list=PL3R9-um41JsxPg4WAPeEZgH6oAk2oti0Q&index=3) : Mapping Cardinalities & Participation Constraints  by `Shanu Kuttan`
+- [YT_TheoryWithEx2](https://www.youtube.com/watch?v=GiLpCYekYmw&list=PL3R9-um41JsxPg4WAPeEZgH6oAk2oti0Q&index=8) : Converting ER Diagrams to Tables (Theory with Question practice) . Y can watch other lecture as well for more.
 
 ## Creating Db using SqlALchemy with Sqlite and FastAPI
 ```python
