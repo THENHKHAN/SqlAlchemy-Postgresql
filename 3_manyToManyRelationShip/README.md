@@ -2,9 +2,10 @@
 # Many-to-Many Database Relationsip implenmented using SqlAlchemy 2.0
 - Python : Python==3.10.5
 - SqlLchemy: SQLAlchemy==2.0.24
+- Sqlite
 
 ## Important Info:
-> **1-** Many-to-many relationships represent the relationship between two entities where multiple instances of one entity can be related to multiple instances of another entity. For example, multiple students can take multiple courses, and each course can be taken by multiple students. <br><br> **2-** In SQLAlchemy, many-to-many relationships are implemented using an intermediate table, also known as an association table, that maps the relationships between the two entities. The intermediate table contains foreign keys to both of the related tables and serves as a mapping between them. <br> Link: [RefArticle](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/)
+> **1-** Many-to-many relationships represent the relationship between two entities where multiple instances of one entity can be related to multiple instances of another entity. For example, multiple students can take multiple courses, and each course can be taken by multiple students. <br><br> **2-** In SQLAlchemy, `many-to-many relationships` are **`implemented using an intermediate table`**, also known as an **`association table`**, that maps the relationships between the two entities. The intermediate table contains foreign keys to both of the related tables and serves as a mapping between them. <br> Link: [RefArticle](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/)
 
 
 ## Important Links:
