@@ -6,6 +6,14 @@
 ## Important Info:
 > **1-** Many-to-many relationships represent the relationship between two entities where multiple instances of one entity can be related to multiple instances of another entity. For example, multiple students can take multiple courses, and each course can be taken by multiple students. <br><br> **2-** In SQLAlchemy, many-to-many relationships are implemented using an intermediate table, also known as an association table, that maps the relationships between the two entities. The intermediate table contains foreign keys to both of the related tables and serves as a mapping between them. <br> Link: [RefArticle](https://vegibit.com/sqlalchemy-orm-relationships-one-to-many-many-to-one-many-to-many/)
 
+# What i have done :
+
+- Created Customer 
+- Create Assign product to particluar product .
+- Get  Product info Via Customer
+- Get  Customer info Via Product
+- How to `delete Product` from Customer profile: `It will reflect in the associative table`
+- tables: Customer , Product and an Associative table that will contains Fks for Customer and Product stuffs
 
 ## Important Links:
 - [forRef_YT](https://www.youtube.com/watch?v=3IDiEC0ZwPg)
