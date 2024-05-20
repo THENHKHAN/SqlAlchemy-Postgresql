@@ -18,6 +18,6 @@
 
 ## Important Links:
 
-- [YT-1-TO-Many](https://www.youtube.com/watch?v=cc0xt9uuKQo&t=396s):SQLAlchemy 2.0 ORM - with Sqlite 
+- [YT-1-TO-Many](https://www.youtube.com/watch?v=cc0xt9uuKQo&t=396s):SQLAlchemy 2.0 ORM - with Sqlite -YT
 - [OffDoc1ToMany](https://docs.sqlalchemy.org/en/20/orm/basic_relationships.html)
 - [Article](https://www.digitalocean.com/community/tutorials/how-to-use-one-to-many-database-relationships-with-flask-sqlalchemy)
