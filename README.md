@@ -185,3 +185,12 @@ result = select([users.c.name, users.c.age]).where(users.c.age > 25)
 
 - **Use Core when**: You need more control over the SQL being generated, prefer to work with explicit SQL expressions, or need to perform complex queries.
 
+  ## RelationShip 1-1, 1-N, N-N :
+  ### In 1-1 we need three table to make the relation from both the table 3rd table will contain: both table's PK and anyone can work as Pk
+  <img width="353" alt="image" src="https://github.com/THENHKHAN/SqlAlchemy-Postgresql/assets/92791314/df894a72-d287-45cf-bb84-08d2aff2cafe">
+
+  ### In 1-N : we can have only TWO table , in 1st table parent , 2nd child so we can use 1st table Pk as FK in 2nd table 
+  <img width="563" alt="image" src="https://github.com/THENHKHAN/SqlAlchemy-Postgresql/assets/92791314/f302c49c-89bc-4ca0-93b0-ce1bc6b61387">
+
+
+
